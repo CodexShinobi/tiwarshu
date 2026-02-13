@@ -38,7 +38,7 @@ export default function Page() {
           {/* Footer */}
           <footer className="bg-primary/5 border-t border-primary/10 py-8 px-4 text-center">
             <p className="text-foreground/60 font-lora">
-              Made with infinite love for Sonali
+              Made with infinite love for Manshu Tiwary
             </p>
             <p className="text-sm text-foreground/40 mt-2">
               Forever begins today

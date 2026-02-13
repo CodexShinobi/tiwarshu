@@ -47,7 +47,7 @@ export default function HeroSection() {
             className="flex flex-col gap-6"
           >
             <AnimatedText
-              text="Sonali"
+              text="Manshu Tiwary"
               variant="heading"
               className="text-6xl md:text-7xl"
             />
@@ -99,7 +99,7 @@ export default function HeroSection() {
               
               <Image
                 src="./WhatsApp Image 2026-02-13 at 7.11.44 PM.jpeg"
-                alt="Sonali"
+                alt="Manshu Tiwary"
                 width={500}
                 height={500}
                 className="w-full h-full object-cover rounded-3xl"

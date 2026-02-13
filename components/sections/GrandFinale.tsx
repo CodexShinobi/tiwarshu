@@ -10,7 +10,7 @@ export default function GrandFinale() {
   const [showConfetti, setShowConfetti] = useState(false)
   const [displayedText, setDisplayedText] = useState('')
 
-  const loveLetter = `My Dearest Sonali,
+  const loveLetter = `My Dearest Manshu Tiwary,
 
 Words can never fully express the depth of my love for you. But I will try, because you deserve to know exactly how I feel.
 

@@ -15,11 +15,11 @@ const lora = Lora({
 })
 
 export const metadata: Metadata = {
-  title: 'Sonali - My Forever Love',
+  title: 'Manshu Tiwary - My Forever Love',
   description: 'A celebration of our eternal love story',
   generator: 'v0.app',
   openGraph: {
-    title: 'Sonali - My Forever Love',
+    title: 'Manshu Tiwary - My Forever Love',
     description: 'A celebration of our eternal love story',
     type: 'website',
   },
