@@ -22,7 +22,7 @@ export default function PasswordModal({ isOpen, onSubmit }: PasswordModalProps) 
     await new Promise((resolve) => setTimeout(resolve, 300))
 
     if (onSubmit(password)) {
-      setPassword('')
+      setPassword('Manshu')
     } else {
       setError('Incorrect password. Try again.')
       setPassword('')
