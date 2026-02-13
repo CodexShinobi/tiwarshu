@@ -98,7 +98,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary/50 rounded-3xl p-1 -z-10 animate-pulse-glow" />
               
               <Image
-                src="asset/WhatsApp Image 2026-02-13 at 10.29.30 PM.jpeg"
+                src="/asset/WhatsApp Image 2026-02-13 at 10.29.30 PM.jpeg"
                 alt="Manshu Tiwary"
                 width={500}
                 height={500}
