@@ -6,7 +6,7 @@ import BeautyCarousel from '@/components/sections/BeautyCarousel'
 import LoveQuotesGrid from '@/components/sections/LoveQuotesGrid'
 import InteractiveButtons from '@/components/sections/InteractiveButtons'
 import GrandFinale from '@/components/sections/GrandFinale'
-// import PasswordModal from '@/components/modals/PasswordModal'
+import PasswordModal from '@/components/modals/PasswordModal'
 import { usePasswordProtection } from '@/hooks/usePasswordProtection'
 
 export default function Page() {

@@ -8,7 +8,7 @@ export function usePasswordProtection() {
 
   useEffect(() => {
     // Check if already authenticated in this session
-    const authenticated = typeof window !== 'undefined' && localStorage.getItem('sonali_authenticated') === 'true'
+    const authenticated = typeof window !== 'undefined' && localStorage.getItem('manshu_authenticated') === 'true'
     
     if (authenticated) {
       setIsAuthenticated(true)
@@ -20,12 +20,12 @@ export function usePasswordProtection() {
 
   const handlePasswordSubmit = (password: string) => {
     // The password is stored in environment variable NEXT_PUBLIC_LOVE_PASSWORD
-    const correctPassword = process.env.NEXT_PUBLIC_LOVE_PASSWORD || 'sonali'
+    const correctPassword = process.env.NEXT_PUBLIC_LOVE_PASSWORD || 'manshu'
     
     if (password === correctPassword) {
       setIsAuthenticated(true)
       setShowModal(false)
-      localStorage.setItem('sonali_authenticated', 'true')
+      localStorage.setItem('manshu_authenticated', 'true')
       return true
     }
     return false
