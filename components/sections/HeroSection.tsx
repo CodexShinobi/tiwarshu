@@ -98,7 +98,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary/50 rounded-3xl p-1 -z-10 animate-pulse-glow" />
               
               <Image
-                src="./WhatsApp Image 2026-02-13 at 7.11.44 PM.jpeg"
+                src="C:\Users\NAVNEET PRAKASH\Downloads\valentine-s-day-website (2)\WhatsApp Image 2026-02-13 at 7.11.44 PM.jpeg"
                 alt="Sonali"
                 width={500}
                 height={500}
