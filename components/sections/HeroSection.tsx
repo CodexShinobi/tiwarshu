@@ -98,7 +98,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary/50 rounded-3xl p-1 -z-10 animate-pulse-glow" />
               
               <Image
-                src="/asset/manshu.jpeg"
+                src="https://drive.google.com/file/d/15SWrOx4qkR59XgUJ2XmDeUxyqJDQbyPo/view?usp=drivesdk"
                 alt="Manshu Tiwary"
                 width={500}
                 height={500}
